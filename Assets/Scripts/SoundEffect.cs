@@ -6,6 +6,6 @@ public class SoundEffect : MonoBehaviour
 {
     void Start()
     {
-        Destroy(gameObject, 1f);
+        Destroy(gameObject, 0.5f);
     }
 }
