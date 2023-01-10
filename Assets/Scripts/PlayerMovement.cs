@@ -26,7 +26,4 @@ public class PlayerMovement : MonoBehaviour
     {
         _rigidBody2D.AddForce(new Vector2(0, _jumpForce));
     }
-
-
-
 }

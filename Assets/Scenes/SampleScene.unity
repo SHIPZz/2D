@@ -592,7 +592,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enemies
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 4597ae2be916e2a438ba6a8cf8190b9f, type: 3}
 --- !u!1001 &435230823
 PrefabInstance:

@@ -1,11 +1,11 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class SoundEffect : MonoBehaviour
 {
+    private float _delay = 0.5f;
+
     void Start()
     {
-        Destroy(gameObject, 0.5f);
+        Destroy(gameObject, _delay);
     }
 }
